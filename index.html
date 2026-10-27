@@ -400,7 +400,7 @@ h1.ln { font-family: var(--f-display); font-weight: 800; font-size: clamp(2rem, 
 .life { padding-block: clamp(4rem, 9vw, 6rem) 0; }
 .life-grid { display: grid; gap: 1rem; grid-template-columns: minmax(0, 1fr); }
 @media (min-width: 48rem) { .life-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
-.life-card { background: var(--panel); border: 1px solid var(--line); border-radius: var(--r); padding: 1.2rem; display: grid; gap: .4rem; }
+.life-card { background: var(--panel); border: 1px solid var(--line); border-radius: var(--r); padding: 1.2rem; display: grid; gap: .4rem; align-content: start; }
 .life-card .k { font-family: var(--f-mono); font-size: .7rem; color: var(--amber); letter-spacing: .08em; text-transform: uppercase; }
 .life-card b { font-family: var(--f-display); font-size: 1.25rem; letter-spacing: -.02em; }
 .life-card p { color: var(--muted); font-size: .93rem; }
